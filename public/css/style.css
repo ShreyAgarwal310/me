@@ -19,7 +19,7 @@ body {
   color: rgba(0, 0, 0, 0.7); }
   @media screen and (max-width: 992px) {
     body {
-      font-size: 16px; } }
+      font-size: 12px; } }
 
 a {
   color: #2c98f0;
@@ -1429,3 +1429,87 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust the minmax for box size */
+    gap: 20px; /* Spacing between the boxes */
+  }
+  
+  .skill-box {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .intro-heading {
+    display: inline-block;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  /* Ensure the background is tightly wrapped around the text */
+.inline-text {
+  display: inline; /* Inline ensures the background only wraps the text */
+  background-color: white; /* White background behind the text */
+  padding: 5px 10px; /* Adds space around the text */
+  border-radius: 5px; /* Optional: Gives the box a slight rounded corner */
+}
+
+.btn-resume {
+  background-color: white;
+  border: 2px solid black; /* Black border for the button */
+  color: black; /* Black text */
+  padding: 10px 20px; /* Add padding for a nicer button look */
+  font-weight: bold;
+  text-decoration: none; /* Remove underline */
+  border-radius: 5px; /* Optional: Add rounded corners */
+  display: inline-block; /* Ensure the button looks like a block, not inline text */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Optional hover effect */
+.btn-resume:hover {
+  background-color: black; /* Button background turns black on hover */
+  color: white; /* Text turns white on hover */
+}
+
+.linkedin, .github {
+  display: inline-block;
+  margin-right: 10px; /* Adds space between the two */
+}
+
+.linkedin i, .github i {
+  font-size: 2.0rem;
+  margin-right: 5px; /* Space between icon and text */
+}
+
+.linkedin a, .github a {
+  text-decoration: none;
+  color: black; /* Ensure text color remains black */
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* centers the content horizontally */
+}
+
+.email i {
+  margin-right: 5px; /* Adjust the spacing between icon and email text */
+  font-size: 2.0rem; /* Adjust size of the icon if needed */
+}
+
+.email a {
+  font-size: 1.75rem; /* Adjust size of the email text if needed */
+}
+
+
+
+  
+  
