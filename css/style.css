@@ -1513,6 +1513,7 @@ body.offcanvas {
   display: block; /* Ensures it appears on a new line */
   margin-top: 5px; /* Adds a small space between the title and employer */
   font-size: 1rem; /* Adjust font size if needed */
+  font-weight: bold
 }
 
 h2 span {
@@ -1524,6 +1525,7 @@ h2 span {
 .timeline-label .employer a {
   color: #2c98f0 !important; /* Force blue color for the link */
   text-decoration: none !important; /* Remove underline */
+  font-weight: bold;
 }
 
 .timeline-label .employer a:hover {
