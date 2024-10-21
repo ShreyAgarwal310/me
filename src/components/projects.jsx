@@ -34,7 +34,7 @@ export default class Projects extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>Digital Rewards System <span>August 2022 - May 2023</span></h2>
-                        <p>Facilitated the effort to create a digital awards system that would allow teachers to reward students digitally and gave students access to an online store with recruited groups of 5+ students </p>
+                        <p>Facilitated the effort to create a <a href="https://github.com/ShreyAgarwal310/CIAstore" target="_blank" rel="noopener noreferrer">digital rewards system</a> that would allow teachers to reward students digitally and gave students access to an online store with recruited groups of 5+ students </p>
                         <p>Navigated through issues, including student security, accessibility, and reliability; worked with the principal and district office to ensure the program followed all guidelines </p>
                       </div>
                     </div>
