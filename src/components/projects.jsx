@@ -4,6 +4,7 @@ export default class Projects extends Component {
   render() {
     return (
       <div>
+        {/* test comment*/}
         <section className="colorlib-projects" data-section="projects">
           <div className="colorlib-narrow-content">
             <div className="row">
