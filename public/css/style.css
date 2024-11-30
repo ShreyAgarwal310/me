@@ -1550,7 +1550,7 @@ h2 span {
 .slides li {
   background-size: cover; /* Makes sure the background always covers the container */
   background-position: center center; /* Keeps the background centered */
-  min-height: 100vh; /* Ensures it covers full viewport height */
+  min-height: 50vh; /* Ensures it covers full viewport height */
 }
 
 

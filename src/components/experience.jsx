@@ -15,6 +15,24 @@ export default class Experience extends Component {
             <div className="row">
               <div className="col-md-12">
                 <div className="timeline-centered">
+                <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-1">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>
+                          Research Assistant (CS)<br />
+                          <span className="employer">
+                            <a href="https://computing.unl.edu/" target="_blank" rel="noopener noreferrer">UNL School of Computing </a>
+                          </span>
+                          <span>October 2024 - present</span>
+                        </h2>
+                          <p>Developed innovative strategies leveraging GPT for enhancing TCP congestion control algorithms, contributing to advancements in network efficiency and reliability.</p> 
+                          <p>Collaborated with professors and graduate researchers to optimize networking protocols, improving TCP time efficiency through research-driven solutions.</p>
+                      </div>
+                    </div>
+                  </article>
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-3">
@@ -22,7 +40,7 @@ export default class Experience extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>
-                          Undergraduate Research Assistant <br />
+                          Research Assistant (Biomedical Engineering)<br/>
                           <span className="employer">
                             <a href="https://smr.unl.edu/index.html" target="_blank" rel="noopener noreferrer">Smart Materials & Robotics Lab </a>
                           </span>
@@ -59,7 +77,7 @@ export default class Experience extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>
-                          High School Research Assistant <br />
+                          Research Assistant (CS)<br />
                           <span className="employer">
                             <a href="https://computing.unl.edu/" target="_blank" rel="noopener noreferrer">UNL School of Computing</a>
                           </span>
