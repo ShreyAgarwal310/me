@@ -24,12 +24,12 @@ export default class Experience extends Component {
                         <h2>
                           Research Assistant (CS)<br />
                           <span className="employer">
-                            <a href="https://computing.unl.edu/" target="_blank" rel="noopener noreferrer">UNL School of Computing </a>
+                            <a href="https://cse.unl.edu/~xu/index.html" target="_blank" rel="noopener noreferrer">Internet Correct and Efficient Laboratory </a>
                           </span>
                           <span>October 2024 - present</span>
                         </h2>
-                          <p>Developed innovative strategies leveraging GPT for enhancing TCP congestion control algorithms, contributing to advancements in network efficiency and reliability.</p> 
-                          <p>Collaborated with professors and graduate researchers to optimize networking protocols, improving TCP time efficiency through research-driven solutions.</p>
+                          <p>Developed customized Congestion Control Algorithms (CCAs) using GPT applications, implementing tree reasoning methods that increased accuracy by 15%.</p> 
+                          <p>Collaborated with School of Computing faculty and graduate students to integrated AI-driven reasoning techniques into Transmission Control Protocols (TCPs), enhancing computational efficiency and precision.</p>
                       </div>
                     </div>
                   </article>
