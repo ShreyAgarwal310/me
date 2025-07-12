@@ -9,7 +9,6 @@ export default class Projects extends Component {
           <div className="colorlib-narrow-content">
             <div className="row">
               <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                <span className="heading-meta">highlights</span>
                 <h2 className="colorlib-heading animate-box">Projects</h2>
               </div>
             </div>
@@ -23,7 +22,7 @@ export default class Projects extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>Rural Bridge Monitoring System <span>January 2023 - May 2023</span></h2>
-                        <p>Created a vibration sensor prototype to monitor the state of 1000+ rural bridges across Nebraska using Fast-Fourier Transforms and differential equations </p>
+                        <p>Created a vibration sensor prototype to monitor the state of <b>1000+ rural bridges</b> across Nebraska using Fast-Fourier Transforms and differential equations </p>
                         <p>Presented findings to a panel of 3 professors at the University of Nebraska-Omaha; awarded the 2023 University of Nebraska-Omaha Hackathon League Champion </p>
                       </div>
                     </div>

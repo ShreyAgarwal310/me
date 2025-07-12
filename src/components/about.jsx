@@ -13,8 +13,10 @@ export default class About extends Component {
                     <div className="about-desc">
                     {/*<span className="heading-meta"></span>*/}
                     <h2 className="colorlib-heading">Who Am I?</h2>
-                    <p>I am a freshman at the University of Nebraska-Lincoln's Raikes School, studying Mechanical Engineering, Mathematics, and Data Science.</p>
-                    <p>I want to explore the intersections of technology and innovation to create solutions to the world's most pressing problems. Currently, I am working on wearable biotechnology and GPTs applications to TCPs. </p>
+                    <p>I am a sophomore at the University of Nebraska-Lincoln's Raikes School, studying Mechanical Engineering, Mathematics, and Data Science.</p>
+                    <p>My passion lies at the intersection of engineering, artificial intelligence, and data-driven innovation, where I strive to develop cutting-edge solutions to complex problems.</p>
+                    <p>I thrive in high-impact, research-driven environments that blend technical problem-solving with real-world applications. Whether it’s AI, robotics, biomechanics, or sustainable energy, I am always looking for opportunities to collaborate, innovate, and push boundaries.</p>
+                    <p>Let’s connect! If you’re interested in discussing any of these topics or something else, feel free to reach out. </p>
                     </div>
                 </div>
                 </div>

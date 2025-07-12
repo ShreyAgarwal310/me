@@ -3,13 +3,11 @@ import React, { Component } from 'react'
 export default class Skills extends Component {
   render() {
     const technicalSkills = [
-      'Altium', 'Arduino', 'Git', 'HTML/CSS', 'Java',
-      'LaTeX', 'Mathematics', 'Microsoft Excel', 'Python',
-      'R', 'Revit', 'SOLIDWORKS', 'Steam Systems', 'SQL'
+      'AFT Fathom', 'Altium', 'Arduino', 'AutoCAD', 'AutoPipe', 'C', 'Excel', 'Git', 'HTML/CSS', 'Java', 'Pandas', 'Plant 3D', 'Python', 'React', 'Revit', 'SOLIDWORKS', 'SQL', 'Tableau', 'MATLAB', 'Microsoft Suite', 'Linux'
     ];
 
     const softSkills = [
-      'Focus', 'Achiever', 'Analytical', 'Competition', 'Input', 'Critical Thinking', 'Leadership', 'Problem-Solving'
+      'Focus', 'Achiever', 'Analytical', 'Competition', 'Input', 'Critical Thinking', 'Leadership', 'Problem-Solving', 'Innovation'
     ];
 
     return (

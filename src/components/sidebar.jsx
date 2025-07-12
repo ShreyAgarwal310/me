@@ -22,7 +22,7 @@ export default class Sidebar extends Component {
 
               {/* Resume */}
               <span className="linkedin">
-                <a href="https://uofnelincoln-my.sharepoint.com/:w:/g/personal/sagarwal4_unl_edu/ESsl5VpQEWNOjTV_nL_gezMBo3SlcbrWy2MMNT5w8GbT4w?e=JSDc1T" target="_blank" rel="noopener noreferrer">
+                <a href="https://uofnelincoln-my.sharepoint.com/:b:/g/personal/sagarwal4_unl_edu/EXYLU4vNxopIsR3T57OAvwcBTL3IfsOzy69zELJL9XnZCw?e=7sMkQx" target="_blank" rel="noopener noreferrer">
                   <i className="icon-document"></i>     
                 </a>
               </span>
@@ -49,6 +49,7 @@ export default class Sidebar extends Component {
                   <li className="active"><a href="#home" data-nav-section="home">Introduction</a></li>
                   <li><a href="#about" data-nav-section="about">About</a></li>
                   <li><a href="#experience" data-nav-section="experience">Experience</a></li>
+                  <li><a href="#involvement" data-nav-section="involvement">Involvement</a></li>
                   <li><a href="#projects" data-nav-section="projects">Projects</a></li>
                   <li><a href="#timeline" data-nav-section="timeline">Education</a></li>
                   <li><a href="#skills" data-nav-section="skills">Skills</a></li>

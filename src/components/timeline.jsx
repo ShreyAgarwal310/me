@@ -8,7 +8,6 @@ export default class Timeline extends Component {
           <div className="colorlib-narrow-content">
             <div className="row">
               <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                <span className="heading-meta">highlights</span>
                 <h2 className="colorlib-heading animate-box">Education</h2>
               </div>
             </div>
@@ -21,10 +20,15 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>University of Nebraska-Lincoln <span>Expected May 2028</span></h2>
+                        <h2>University of Nebraska-Lincoln <span>GPA: 3.95, Expected May 2028</span></h2>
                         <h2>Majors: Mechanical Engineering, Mathematics, Data Science | Minors: Computer Science, Business</h2>
-                        <p>Jeffery S. Raikes School of Computer Science & Management: A selective honors program (40 scholars/year) at the University of Nebraska-Lincoln that combines computer science and management and infuses leadership, entrepreneurship, and innovation</p>
-                        <p>Raikes Student Advisory Board: Collaborate with senior staff at the Raikes School to improve student experience, initiate community engagement events, and drive initiatives that foster professional development, academic success, and a strong sense of community among students.</p>
+                        <p>One of 16 members of the inaugural class of University of Nebraska Presidential Scholars.</p>
+                        <p>Relevant Coursework:
+                            <ul>
+                              <li>Engineering: Thermodynamics, Dynamics, Statics, Geometric Modeling, CAD</li>
+                              <li>Software/Data: Software Engineering III &amp; IV, Data Science Fundamentals</li>
+                              <li>Math/Analysis: Calculus I-III, Linear Algebra, Differential Equations, Real Analysis, Statistics and Applications</li>
+                            </ul> </p>
                       </div>
                     </div>
                   </article>
